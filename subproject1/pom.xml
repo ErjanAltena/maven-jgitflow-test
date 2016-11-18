@@ -24,7 +24,7 @@
                                         <flowInitContext>
                                                 <masterBranchName>master</masterBranchName>
                                                 <developBranchName>subproject-development</developBranchName>
-                                                <featureBranchPrefix>subproject1-feature-</featureBranchPrefix>
+                                                <featureBranchPrefix>feature/subproject/</featureBranchPrefix>
                                                 <releaseBranchPrefix>subproject1-release-</releaseBranchPrefix>
                                                 <hotfixBranchPrefix>subproject1-hotfix-</hotfixBranchPrefix>
                                                 <versionTagPrefix>subproject1-</versionTagPrefix>
