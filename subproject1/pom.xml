@@ -1,9 +1,14 @@
 <?xml version="1.0"?>
 <project>
         <modelVersion>4.0.0</modelVersion>
-        <groupId>mijn.groep</groupId>
+
+        <parent>
+                <groupId>mijn.groep</groupId>
+                <artifactId>mijnParentArtifact</artifactId>
+                <version>4.0.0</version>
+        </parent>
+
         <artifactId>mijnSubproject1</artifactId>
-        <version>4.0.0</version>
         <distributionManagement>
                 <snapshotRepository>
                         <id>local-store</id>
@@ -24,7 +29,7 @@
                                         <flowInitContext>
                                                 <masterBranchName>master</masterBranchName>
                                                 <developBranchName>subproject-development</developBranchName>
-                                                <featureBranchPrefix>subproject1-feature-</featureBranchPrefix>
+                                                <featureBranchPrefix>feature/subproject/</featureBranchPrefix>
                                                 <releaseBranchPrefix>subproject1-release-</releaseBranchPrefix>
                                                 <hotfixBranchPrefix>subproject1-hotfix-</hotfixBranchPrefix>
                                                 <versionTagPrefix>subproject1-</versionTagPrefix>

@@ -2,8 +2,9 @@
 <project>
         <modelVersion>4.0.0</modelVersion>
         <groupId>mijn.groep</groupId>
-        <artifactId>mijnArtifact</artifactId>
-        <version>3.0.1-SNAPSHOT</version>
+        <artifactId>mijnParentArtifact</artifactId>
+        <version>4.0.0</version>
+        <packaging>pom</packaging>
         <distributionManagement>
                 <snapshotRepository>
                         <id>local-store</id>
@@ -14,6 +15,10 @@
                         <url>file:///home/maintain/mvn-git-flow/local-repo</url>
                 </repository>
         </distributionManagement>
+        <modules>
+                <module>subproject1</module>
+                <module>subproject2</module>
+        </modules>
         <build>
                 <plugins>
                         <plugin>
