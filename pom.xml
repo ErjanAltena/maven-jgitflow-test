@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<project>
+        <modelVersion>4.0.0</modelVersion>
+        <groupId>mijn.groep</groupId>
+        <artifactId>mijnArtifact</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <distributionManagement>
+                <snapshotRepository>
+                        <id>local-store</id>
+                        <url>file:///home/maintain/mvn-git-flow/local-repo</url>
+                </snapshotRepository>
+                <repository>
+                        <id>local-store</id>
+                        <url>file:///home/maintain/mvn-git-flow/local-repo</url>
+                </repository>
+        </distributionManagement>
+</project>
