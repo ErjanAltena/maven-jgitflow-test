@@ -1,9 +1,15 @@
 <?xml version="1.0"?>
 <project>
         <modelVersion>4.0.0</modelVersion>
-        <groupId>mijn.groep</groupId>
+
+        <parent>
+                <groupId>mijn.groep</groupId>
+                <artifactId>mijnParentArtifact</artifactId>
+                <version>3.0.1-SNAPSHOT</version>
+        </parent>
+
         <artifactId>mijnSubproject1</artifactId>
-        <version>1.0.1-SNAPSHOT</version>
+
         <distributionManagement>
                 <snapshotRepository>
                         <id>local-store</id>
