@@ -20,15 +20,16 @@
                                 <groupId>external.atlassian.jgitflow</groupId>
                                 <artifactId>jgitflow-maven-plugin</artifactId>
                                 <version>1.0-m5.1</version>
-                                 <configuration>
+                                <configuration>
                                         <flowInitContext>
                                                 <masterBranchName>master</masterBranchName>
-                                                <developBranchName>development</developBranchName>
-                                                <featureBranchPrefix>feature-</featureBranchPrefix>
-                                                <releaseBranchPrefix>release-</releaseBranchPrefix>
-                                                <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
-                                                <versionTagPrefix>masterproject-</versionTagPrefix>
+                                                <developBranchName>subproject2-development</developBranchName>
+                                                <featureBranchPrefix>subproject2-feature-</featureBranchPrefix>
+                                                <releaseBranchPrefix>subproject2-release-</releaseBranchPrefix>
+                                                <hotfixBranchPrefix>subproject2-hotfix-</hotfixBranchPrefix>
+                                                <versionTagPrefix>subproject2-</versionTagPrefix>
                                         </flowInitContext>
+
                                 </configuration>
                         </plugin>
                 </plugins>

@@ -2,8 +2,8 @@
 <project>
         <modelVersion>4.0.0</modelVersion>
         <groupId>mijn.groep</groupId>
-        <artifactId>mijnArtifact</artifactId>
-        <version>1.0.1-SNAPSHOT</version>
+        <artifactId>mijnSubproject1</artifactId>
+        <version>1.0.0</version>
         <distributionManagement>
                 <snapshotRepository>
                         <id>local-store</id>
@@ -20,14 +20,14 @@
                                 <groupId>external.atlassian.jgitflow</groupId>
                                 <artifactId>jgitflow-maven-plugin</artifactId>
                                 <version>1.0-m5.1</version>
-                                 <configuration>
+                                <configuration>
                                         <flowInitContext>
                                                 <masterBranchName>master</masterBranchName>
-                                                <developBranchName>development</developBranchName>
-                                                <featureBranchPrefix>feature-</featureBranchPrefix>
-                                                <releaseBranchPrefix>release-</releaseBranchPrefix>
-                                                <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
-                                                <versionTagPrefix>masterproject-</versionTagPrefix>
+                                                <developBranchName>subproject-development</developBranchName>
+                                                <featureBranchPrefix>subproject1-feature-</featureBranchPrefix>
+                                                <releaseBranchPrefix>subproject1-release-</releaseBranchPrefix>
+                                                <hotfixBranchPrefix>subproject1-hotfix-</hotfixBranchPrefix>
+                                                <versionTagPrefix>subproject1-</versionTagPrefix>
                                         </flowInitContext>
                                 </configuration>
                         </plugin>
