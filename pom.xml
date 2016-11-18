@@ -29,6 +29,7 @@
                                                 <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
                                                 <versionTagPrefix>masterproject-</versionTagPrefix>
                                         </flowInitContext>
+                                        <pushReleases>true</pushReleases>
                                 </configuration>
                         </plugin>
                 </plugins>
