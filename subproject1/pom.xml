@@ -9,7 +9,6 @@
         </parent>
 
         <artifactId>mijnSubproject1</artifactId>
-
         <distributionManagement>
                 <snapshotRepository>
                         <id>local-store</id>
